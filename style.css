@@ -18,10 +18,10 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/bg.jpg)no-repeat;
+  background: url(images/bg.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  
 }
 
 .main .content{
@@ -38,7 +38,10 @@ section{
   font-size: 2.8em;
   font-weight: 600;
 }
-
+.main.content.media-icons{
+  color: #f4f9f5ee;
+  
+}
 .animated-text{
   position: relative;
   height: 70px;
@@ -314,13 +317,13 @@ body{
   background: #e3a324;
 }
 
-.skills .content .col-right .bar .jquery:before{
-  width: 80%;
+.skills .content .col-right .bar .react:before{
+  width: 75%;
   background: #30dd6d;
 }
 
-.skills .content .col-right .bar .php:before{
-  width: 75%;
+.skills .content .col-right .bar .java:before{
+  width: 85%;
   background: #6d7eb8;
 }
 
